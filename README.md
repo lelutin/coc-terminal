@@ -13,7 +13,15 @@ Toggle terminal with coc.nvim. Inspired by [repl with coc.nvim](https://gist.git
 ## Configurations
 
 - `terminal.REPLMappings`: association overrides between file types and the
-    command called for their REPL, default: `{}`
+  command called for their REPL, default:
+
+      {
+        "c": "cling",
+        "cpp": "cling",
+        "javascript": "node",
+        "typescript": "ts-node",
+        "python": "python"
+      }
 
 ## Commands
 
